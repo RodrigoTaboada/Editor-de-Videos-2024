@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+/* Nav-bar */
+nav{
+    display: flex;
+    justify-content: end;
+    padding-right: 4% ;
+    background-color: #153448;
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    align-content: center;
+        
+}
+
+ul{
+    margin: 0;
+    padding: 1rem;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    /* margin: 2rem 33% 2rem 33%; */
+}
+
+/* Body */
+
+
+
+.cards{
+    filter: drop-shadow(5px 5px 10px #000000);
+    margin: 5% 15% 8% 15%;
+    
+}
+
+/* Footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+}
+
