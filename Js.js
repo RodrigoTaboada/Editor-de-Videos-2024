@@ -1,4 +1,4 @@
-const cardHTML = document.getElementById(`Card`)
+const cardHTML = document.getElementById(`formSF`)
 
 const cards =`
     <div class="mb-5 mx-5">
@@ -12,4 +12,4 @@ const cards =`
    
 
 
-card.innerHTML = cards;
+formSF.innerHTML = cards;
