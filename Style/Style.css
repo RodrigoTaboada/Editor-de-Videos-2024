@@ -98,4 +98,21 @@ footer {
 }
 
 
+.redes-link {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer; /* Cambia el cursor a un dedo */
+  }
+  
+  .redes-link img {
+    vertical-align: middle; /* Alinea verticalmente la imagen con el texto */
+    width: 24px; /* Ajusta el tamaño del icono según sea necesario */
+    height: auto;
+    
+  }
+  
+  .redes-link:hover {
+    text-decoration: underline; /* Subraya el texto al pasar el mouse */
+  }
+  
 
