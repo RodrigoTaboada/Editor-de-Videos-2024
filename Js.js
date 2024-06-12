@@ -12,3 +12,9 @@ const cards =`
 
 
 formSF.innerHTML = cards;
+
+
+function pauseVideo(videoId) {
+    var video = document.getElementById(videoId);
+    video.pause();
+}

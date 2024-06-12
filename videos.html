@@ -23,8 +23,26 @@
 
     <div>
         <h1>Rodrigo Taboada</h1>
-        <h2 class="text-center text-light">Videos</h2>
     </div>   
+
+
+    <div class="container">        
+        <h2>Lesbia Montenegro´s story.</h2>
+        
+        <video id="video1" controls class="w-100">
+            <source src="/Videos/ANDBACK_Lesbia’s-Story_May2022_30secs.mp4" type="video/mp4">
+        </video>
+
+        <h2>Intro Programa Tigre Minuto Cero.</h2>
+        <video id="video1" controls class="w-100">
+            <source src="/Videos/New intro.mp4" type="video/mp4">
+        </video> 
+
+        <h2>RADtest and VFP</h2>
+        <video id="video1" controls class="w-100">
+            <source src="/Videos/RADTest_Short_Ty_April2024_13sec.mp4" type="video/mp4">
+        </video>
+    </div>
 
 <!-- Footer -->
         <footer class="bg-black text-center py-4">
@@ -42,5 +60,9 @@
     </footer>
 
     <script src="Js.js"></script>
+    <script>function pauseVideo(videoId) {
+        var video = document.getElementById(videoId);
+        video.pause();
+    }</script>
 </body>
 </html>
