@@ -57,20 +57,13 @@ h2{
     margin: 5% 1rem 8% 1rem;
     padding-bottom: 10%;
     padding-top: 15%;
+    height: auto;
+    position: fixed;
     
 }
 
 .card{
     width: 50%;
-}
-
-
-
-    
-
-/* Videos */
-.container{
-    margin-top: 15%;
 }
 
 
