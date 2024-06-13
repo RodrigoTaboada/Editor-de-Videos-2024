@@ -1,20 +1,27 @@
 const cardHTML = document.getElementById(`formSF`)
 
 const cards =`
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+    <form id="form">
+    <div class="field">
+        <label for="from_name">from_name</label>
+        <input type="text" name="from_name" id="from_name">
     </div>
-    <div   div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <div class="field">
+        <label for="message">message</label>
+        <input type="text" name="message" id="message">
     </div>
-    <div class="boton">
-        <button type="submit" class="btn btn-primary custom-submit text-center">Enviar</button>
+    <div class="field">
+        <label for="email_id">email_id</label>
+        <input type="text" name="email_id" id="email_id">
     </div>
-    `
-;     
+    <div class="field">
+        <label for="reply_to">reply_to</label>
+    </div>
 
+    <input type="submit" id="button" value="Send Email">
+    </form>
+    `
+;  
 
 formSF.innerHTML = cards;
 
