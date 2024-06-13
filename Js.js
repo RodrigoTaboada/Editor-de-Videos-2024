@@ -21,7 +21,6 @@ const cards =`
     <input type="submit" id="button" value="Send Email">
     </form>
     `
-;  
 
 formSF.innerHTML = cards;
 

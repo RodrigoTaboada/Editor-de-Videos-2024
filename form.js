@@ -1,15 +1,15 @@
 const btn = document.getElementById('button');
 
 document.getElementById('form')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
+  .addEventListener('submit', function(event) {
+    event.preventDefault();
 
-   btn.value = 'Sending...';
+    btn.value = 'Sending...';
 
-   const serviceID = 'default_service';
-   const templateID = 'template_o3c820o';
+    const serviceID = 'default_service';
+    const templateID = 'template_o3c820o';
 
-   emailjs.sendForm(serviceID, templateID, this)
+    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
       btn.value = 'Send Email';
       alert('Sent!');
