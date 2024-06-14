@@ -20,7 +20,6 @@ const cardHTML = document.getElementById(`formSF`)
 
     ` */
 
-formSF.innerHTML = cards;
 
 
 function pauseVideo(videoId) {
