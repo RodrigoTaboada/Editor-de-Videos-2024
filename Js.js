@@ -1,6 +1,6 @@
 const cardHTML = document.getElementById(`formSF`)
 
-const cards =`
+/* const cards =`
     <div class="field">
         <label for="from_name">Nombre</label>
         <input type="text" name="from_name" id="from_name">
@@ -18,7 +18,7 @@ const cards =`
     </div>
         </form>
 
-    `
+    ` */
 
 formSF.innerHTML = cards;
 

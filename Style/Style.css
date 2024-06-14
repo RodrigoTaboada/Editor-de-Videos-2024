@@ -78,21 +78,20 @@ video{
 
 
 .field {
-    margin: 0 20% 0 20% ;  
     text-align: center;
 }
 
   
   .field label {
     display: block;
-    font-size: 12px;
+    font-size: 15px;
     color: #777;
   }
   
   .field input {
     min-width: 250px;
     line-height: 5;
-    font-size: 14px;
+    font-size: 20px;
   }
   
   input[type="submit"] {
