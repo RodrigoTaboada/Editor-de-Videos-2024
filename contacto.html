@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,71 +8,67 @@
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Poetsen+One&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="Style/Style.css">
-    <title> RT | Editor de videos</title>
-    
+    <title>RT | Editor de videos</title>
 </head>
 <body>
-    
-    <header>    
-        <nav>   
+    <header>
+        <!-- Nav-bar -->
+        <nav>
             <ul><a href="index.html">Home</a></ul>
             <ul><a href="videos.html">Videos</a></ul>
             <ul><a href="contacto.html">Contacto</a></ul>
         </nav>
     </header>
 
-<!-- Header -->
-    <div>
-        <h1 class="">RT</h1>
-        <h2 class="text-center text-light">Consultas</h2>
-    </div>  
-    
-<!-- Form -->
-    <div id="formSF" class="formSF">
-        <form id="form">
-            <div class="field">
-                <label for="from_name">Nombre</label>
-                <input type="text" name="from_name" id="from_name">
-            </div>
-            <div class="field">
-                <label for="email_id">E-mail</label>
-                <input type="email" name="email_id" id="email_id" required>
-            </div>
-            <div class="field">
-                <label for="message">Mensaje</label>
-                <textarea class="field" name="message" id="message" rows="4"></textarea>
-            </div>
-            </div>            
-            <div class="botonEnviar">
-                <input type="submit" id="button" value="Enviar consulta">
-            </div>
-        </form>       
-    </div>
+    <main>
+        <!-- Header -->
+        <div>
+            <h1 class="">RT</h1>
+            <h2 class="text-center text-light">Consultas</h2>
+        </div>
 
-<!-- Footer -->
-<footer class="bg-black text-center py-4">
-    <div class="container">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <a href="https://www.instagram.com/" target="_blank" class="redesLink m-2">
-                <img src="IMG/Iconos/instagram.png" alt="Instagram">                   
+        <!-- Form -->
+        <div id="formSF" class="formSF">
+            <form id="form">
+                <div class="field">
+                    <label for="from_name">Nombre</label>
+                    <input type="text" name="from_name" id="from_name">
+                </div>
+                <div class="field">
+                    <label for="email_id">E-mail</label>
+                    <input type="email" name="email_id" id="email_id" required>
+                </div>
+                <div class="field">
+                    <label for="message">Mensaje</label>
+                    <textarea class="field" name="message" id="message" rows="4"></textarea>
+                </div>
+                <div class="botonEnviar">
+                    <input type="submit" id="button" value="Enviar consulta">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-center py-4">
+        <div class="container">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <a href="https://www.instagram.com/" target="_blank" class="redesLink m-2">
+                    <img src="IMG/Iconos/instagram.png" alt="Instagram">
                 </a>
                 <a href="https://www.linkedin.com/in/rodritaboada/" target="_blank" class="redesLink m-2">
-                <img src="IMG/Iconos/linkedin.png" alt="Instagram">                   
-                </a>                  
-        </ul>
-        <p class="text-muted">&copy; 2024 RT Web Developer</p>
-    </div>
-</footer>
+                    <img src="IMG/Iconos/linkedin.png" alt="LinkedIn">
+                </a>
+            </ul>
+            <p class="text-muted">&copy; 2024 RT Web Developer</p>
+        </div>
+    </footer>
 
     <script src="./Js.js"></script>
-    <script src="./form.js"></script>  
-    <script type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="./form.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script type="text/javascript">
-        emailjs.init('Uz5pSjED04sPhcXK8')
-    </script>  
-
-</script>
-    
+        emailjs.init('Uz5pSjED04sPhcXK8');
+    </script>
 </body>
 </html>

@@ -1,22 +1,8 @@
-const cardHTML = document.getElementById(`formSF`)
 
-/* const cards =`
-    <div class="field">
-        <label for="from_name">Nombre</label>
-        <input type="text" name="from_name" id="from_name">
-    </div>
-    <div class="field">
-        <label for="message">Mensaje</label>
-        <input type="text" name="message" id="message">
-    </div>
-    <div class="field">
-        <label for="email_id">E-mail</label>
-        <input type="text" name="email_id" id="email_id">
-    </div>
-    <div class="botonEnviar">
-        <input type="submit" id="button" value="Enviar">
-    </div>
-        </form>
+/* const video =`
+    <video id="video1" controls class="w-100">
+            <source src="./Videos/ANDBACK_Lesbia’s-Story_May2022_30secs.mp4" type="video/mp4">
+        </video>
 
     ` */
 
